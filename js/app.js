@@ -11,7 +11,8 @@ function addToDo(event) {
 	}
 
 
-	toDoList.innerHTML += '<li>' + userInput.value + '</li>';
+	// toDoList.innerHTML += '<li>' + userInput.value + '</li>';
+	toDoList.innerHTML = '<li>' +  userInput.value + '</li>' + toDoList.innerHTML;
 
 	userInput.value = '';
 

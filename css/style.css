@@ -5,28 +5,72 @@
 }
 
 body {
-	background-color: ;
+	background-color: #515C61;
 }
 
 h1 {
+	font-family: 'Dancing Script', cursive;
 	color: pink;
 	text-align: center;
 	
 }
 
-label,input {
+form {
+	width: 75%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
 	border: 2px solid pink;
 }
 
+/*input {
+	width: 75%;
+	margin: auto;
+	padding: 10px;
+    float: left;
+	display: flex;
+	font-size: 10px;
+	justify-content: center;
+	
+	border: 2px solid pink; 
+ }
+*/
+ label {
+ 	border: 2px solid pink;
+ 	width: 100%;
+    padding: 10px;
+    float: left;
+    font-size: 22px;
+ }
+
+ button {
+ 	width: 25%;
+ 	font-family: 'Cinzel', serif;
+ 	font-size: 22px;
+ }
+    
+ /* ul li:nth-child(odd) {
+  	background: #000;
+  } */
+	
+/*ul li:hover {
+	background: red;
+}
+
+*/
+
 .img-hover-contaioner {
 	width: 50%;
-	min-width: 300px;
+	min-width: 100px;
 	margin: 20px auto;
 	position: relative;
 }
 
 .img-hover-container img {
+	height: calc(100vh -50px);
+	display: flex;
 	width: 100%;
+	
 }
 
 .img-hover-container p {
@@ -34,6 +78,7 @@ label,input {
 	width: 80%;
 	bottom: 10px;
 	left: 10%;
+	font-family: 'Dancing Script', cursive;
 	font-size: 50px;
 	text-align: center;
 	padding: 10px;
