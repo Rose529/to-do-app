@@ -6,21 +6,24 @@
 
 body {
 	background-color: #515C61;
+	text-align: left;
+	font-size: 25px;
+
 }
 
 h1 {
 	font-family: 'Dancing Script', cursive;
-	color: pink;
+	color: #F2E9DC;
 	text-align: center;
 	
 }
 
 form {
-	width: 75%;
-	margin: auto;
+	width: 50%;
+	margin: auto;	
 	display: flex;
 	justify-content: center;
-	border: 2px solid pink;
+	border: 2px solid #F2E9DC;
 }
 
 /*input {
@@ -36,17 +39,50 @@ form {
  }
 */
  label {
- 	border: 2px solid pink;
+ 	border: 10px solid #F2E9DC;
+ 	border-style: double;
  	width: 100%;
     padding: 10px;
     float: left;
+    background: #C69F89;
+    text-align: center;
+    color: #F2E9DC;
+    font-family: 'Dancing Script', cursive;
     font-size: 22px;
+
+
  }
 
  button {
+ 	border: 10px solid #F2E9DC;
+ 	border-style: double;
  	width: 25%;
- 	font-family: 'Cinzel', serif;
+ 	background: #C69F89;
+ 	font-family: 'Dancing Script', cursive;
  	font-size: 22px;
+ 	cursor: pointer;
+ }
+
+ input {
+ 	text-align: center;
+ 	font-size: 15px;
+ 	cursor: pointer;
+
+ }
+
+ ul {
+ 	margin: 10px 20%;
+ 	padding: 10%;
+ 	background: #C69F89;
+ 	border: 10px solid #F2E9DC;
+ 	border-style: double;
+ 	list-style: none;
+ 	cursor: pointer;
+ }
+
+ ul:hover {
+ 	background-color: #000;
+ 	color: #fff;
  }
     
  /* ul li:nth-child(odd) {
@@ -58,6 +94,7 @@ form {
 }
 
 */
+
 
 .img-hover-contaioner {
 	width: 50%;
@@ -82,7 +119,7 @@ form {
 	font-size: 50px;
 	text-align: center;
 	padding: 10px;
-	color: pink;
+	color: #F2E9DC;
 	opacity: 0;
 	transition: .5s;
 
@@ -96,6 +133,13 @@ form {
 .img-hover-container:hover p {
 	opacity: 1;
 	transition: .5s;
+}
+
+.close-to-do {
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 15px;
+	color: #F2E9DC;
 }
 
 
